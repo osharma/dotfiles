@@ -129,5 +129,5 @@ export GOROOT=/usr/local/go
 export GREP_OPTIONS='--color=auto'
 
 # Grep shorthands
-alias rgrep_rb="grep -ir --include=*.rb"
+alias rgrep_rb='grep -ir --include=*.rb --include=*.erb --include=*.haml'
 alias grepir="grep -ir"
